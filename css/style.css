@@ -1,0 +1,494 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+ul,p,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+.topbar ul li{
+	display: inline-block;
+}
+.topbar a{
+	color: #2951a1;
+}
+.topbar a:hover{
+	text-decoration: none;
+	color: gray;
+}
+.btn.btn-success {
+    background: #9ec028;
+}
+.btn.btn-pink {
+    background: #F62459;
+    color: #fff;
+}
+.btn.btn-default {
+    background: #f9f9f9;
+    box-shadow: 0px 0px 0px 1px #ddd inset;
+}
+.btn.btn-warning {
+    background: #ff5e3a;
+    color: white;
+}
+.btn {
+    border: 0;
+}
+.b{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.header{
+    border-bottom: 1px solid #e8e8e8;
+    padding: 5px;
+}
+.topbar ul li{
+	margin: 3px;
+}
+.front ul li{
+	display: inline-block;
+	margin: 23px;
+}
+.front a:hover{
+	text-decoration: none;
+	color: gray;
+}
+.front ul{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.logo img{
+	padding-top: 15px;
+	width: 100%;
+}
+.front ul li{
+	position: relative;
+}
+.front ul li ul{
+	position: absolute;
+	display: none;
+	z-index: 100;
+	background-color: white;
+	color: gray;
+	top: 30px;
+	width: 168px;
+	left: -20px;
+}
+.front ul li ul li{
+	display: block;
+}
+.front ul li:hover > ul{
+	display: block;
+}
+.bb button{ 
+	float: left;
+	/*width: 269px;*/
+	width: 20%;
+	border-radius: 0;
+	padding: 15px;
+}
+.bb a{
+	text-decoration: none;
+	color: gray;
+}
+.ser h3,h4{
+	text-align: center;
+	margin-top: 25px;
+    font-size: 38px;
+}
+.pic img{
+	border-radius: 100px;
+	margin-top: 40px;
+	height: 150px;
+	width: 150px;
+}
+.content p{
+	font-size: 15px;
+    margin: 18px 0 0;
+}
+.content h5{
+	margin-top: 20px;
+}
+.pic{
+	text-align: center;
+}
+.services{
+	padding-bottom: 55px;
+}
+.ap button{
+	color: black;
+	background-color: #ffd633;
+	padding: 15px;
+	margin-top: 40px;
+}
+.ap button a:hover{
+	text-decoration: none;
+}
+.ap{
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+.app{
+	background-color: #26a7e0;
+	padding: 10px;
+}
+.pp{
+	color: white;
+    text-align: center;
+    padding: 15px;
+}
+.box h3{
+	background-color:#3b70c2;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+.box2{
+	background-color:#2951a1;
+	color: white;
+	text-align: center;
+	/*margin-bottom: -20px;*/
+	padding: 15px;
+}
+.box3 ul{
+	text-align: center;
+}
+.box3 li{
+	padding: 8px;
+}
+.website{
+	background-color: #f3f3f3;
+	padding: 50px 0;
+	/*margin-bottom: 50px;*/
+}
+.box3{
+	background-color: white;
+	/*height: 390px;*/
+}
+.blue button{
+	color: white;
+	background-color: #2951a1;
+}
+.blue{
+	border-top: 1px solid gray;
+	text-align: center;
+}
+.box2 h4{
+	margin-top: 0px;
+}
+.web{
+	text-align: center;
+}
+.box{
+	margin-top: 40px;
+}
+.web p{
+	margin-top: 18px;
+}
+.ser p{
+	text-align: center;
+	margin-top: 15px;
+}
+.pro h2{
+	text-align: center;
+	padding: 30px;
+}
+.img img{
+	width: 100%;
+	height: 100%;
+}
+.orng{
+	border-color: #ff5e3a;
+	margin-top: 10px;
+}
+.content p{
+	color: #262467;
+}
+.orng button{
+	border: 0;
+	padding: 10px;
+	width: 290px;
+}
+.choos{
+	text-align: center;
+	padding-top: 30PX;
+}
+.content1 h1{
+	text-align: center;
+}
+.content1 p{
+	text-align: center;
+}
+.pic{
+	font-size: 53px;
+}
+.choos p{
+	margin-top: 10px;
+}
+.feedback{
+	text-align: center;
+}
+.fb{
+	background-color: ;
+}
+.choose{
+	padding: 25px;
+}
+.fbb p{
+	background-color: white;
+	padding: 40px;
+	color: gray;
+	margin-top: 10px;
+	display: inline-block;
+}
+.fb h2{
+	margin-top: 35px;
+}
+.fb p{
+	margin-top: 45PX;
+}
+.fbb h6{
+	background-color: white;
+	margin-top: 20px;
+	padding: 6px;
+	display: inline-block;
+}
+.fbb button{
+	border: 0;
+	background-color:#9ec028;
+	color: white;
+	padding: 10px;
+	margin-top: 70px;
+	width: 170px;
+}	
+.newsletter{
+	text-align: center;
+}
+.news{
+	padding: 35px;
+}
+.news p{
+	margin-top: 5px;
+}
+.blog{
+	padding-top: 30px;
+}
+.blg{
+	text-align: center;
+	padding: 17px;
+}
+.picc img{
+	width: 100%;
+	height: 100%;
+	/*margin-top: 30px;*/
+}
+.content2{
+	background-color: white;
+	color: gray;
+}
+.content2 p{
+	padding: 16px;
+}
+.content2 h5{
+	padding: 15px;
+}
+.bl button{
+	background-color: #63b2e8;
+	border: 0;
+	color: white;
+	padding: 10px;
+	width: 180px;
+	margin-top: 30px;
+}
+.p{
+	text-align: center;
+	padding-top: 30px;
+}
+.p p{
+	margin-top: 10px;
+}
+.products{
+	padding: 50px;
+}
+.s{
+	text-align: center;
+}
+.ss{
+	font-size: 53px;
+	text-align: center;
+}
+.a button{
+	border: 0;
+	padding: 10px;
+}
+.footer ul li {
+    border-bottom: 1px dashed #e9e7ea;
+    font-size: 14px;
+    padding: 8px 0;
+}
+.footer h6{
+	color: #2951a1;
+}
+.foo ul li{
+	display: inline-block;
+}
+.foo ul{
+	float: right;
+	margin: 5px;
+}
+.clear{
+	clear: both;
+}
+.foot{
+	padding: 12px;
+}
+.award ul li{
+	display: inline-block;
+}
+.visa ul li{
+	display: inline-block;
+}
+.visa ul{
+	float: right;
+	font-size: 40px;
+}
+.clear{
+	clear: both;
+}
+.con ul li{
+	display: inline-block;
+	color: #2951a1;
+}
+.co ul li{
+	display: inline-block;
+	color: #2951a1;
+	padding: 10px;
+}
+.block{
+	border: 1px ridge;
+	padding: 13px;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+}
+.bd{
+	background-color: #f3f3f3;
+	padding: 20px;
+}
+.bg{
+	background-color:#f3f3f3;
+	padding: 55px;
+}
+.s p{
+	margin-bottom: 20px;
+}
+.bgg{
+	background-color: #2951a1;
+	color: white;
+	padding: 40px;
+}
+.bs{
+	background-color: #f3f3f3;
+	padding: 25px;
+}
+.responsive-btn{
+	display: none;
+}
+.dd{
+	background-color: #f3f3f3;
+	padding: 15px;
+}
+.foo ul li i{
+		padding: 8px;
+		background-color: #2951a1;
+		color: white;
+}
+@media screen and (max-width: 992px){
+	.responsive-btn{
+		display: block;
+		float: right;
+	}
+	.header{
+		display: none;
+	}
+	.front ul{
+		display: none;
+	}
+	.slider img{
+		width: 100%;
+	}
+	.bb button{
+		font-size: 9px;
+	}
+	.pic img{
+		width: 100px;
+        height: 100px;
+	}
+	.bl{
+		text-align: center;
+	}
+	.ss i{
+		margin-top: 35px;
+	}
+	.sss h2{
+		font-size: 25px;
+	}
+	.a{
+        text-align: center;
+        font-size: 13px;
+	}
+	.a button{
+		padding: 20px;
+	}
+	.foo ul li i{
+		padding: 5px;
+	}
+	.visa ul{
+		font-size: 25px;
+	}  
+	.news{
+		padding: 20px;
+	}
+	.block{
+		margin-top: 30px;
+	}
+	.pro h2 {
+    padding: 15px;
+   }
+   .picc img {
+    margin-top: 30px;
+   }
+   .box3{
+   	font-size: 13px;
+   }
+   .bl button{
+   	width: 166px;
+   }
+   .foo ul {
+    float: left;
+    margin-top: 20px;
+   }
+   .visa ul {
+    float: left;
+    margin-top: 20px;
+    }
+    .products{
+    	padding: 9px;
+    }
+    .logo{
+    	margin-bottom: 10px;
+    }
+    
+}
+@media screen and (mi-width: 289px){
+	
+	
+}
